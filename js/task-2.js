@@ -17,7 +17,7 @@ class Storage {
     this.#items.push(item);
   }
   removeItem(item) {
-    this.#items = this.#items.filter((currentItem) => currentItem !== item);
+    this.#items = this.#items.filter((itemRemove) => itemRemove !== item);
   }
 }
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
